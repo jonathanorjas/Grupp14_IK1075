@@ -34,7 +34,7 @@ body {
 	width: 1200px;
 	min-height: 940px; 
 	overflow: auto;
-	background-color: #8FEBAD;
+	background-color: #33aaff;
 }
 /*Header Start*/
 header{
@@ -167,7 +167,7 @@ div#slider figure {
 .sidebar{
 	width: 16%;
 	height: auto;
-	background-color: #8FEBAD;
+	background-color: #33aaff;
 	float: left;
 }
 .sidebar_kategori{
