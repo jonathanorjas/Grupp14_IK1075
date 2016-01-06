@@ -140,6 +140,7 @@ header{
 	margin:5px auto;
 	border:2px solid #33aaff;
 	border-radius:2px;
+	float:left;
 }
 /* Bildspel */
 @keyframes slidy {
