@@ -96,23 +96,36 @@ header{
 }
 /* Huvudmeny Hem */
 .news{
-	width:500px;
+	width:660px;
 	min-height:120px;
 	margin:10px auto;
-	margin-right:35%;
 	border:2px solid #33aaff;
 	border-radius:8px;
+	float:left;
 }
 .news p {
-	margin: 5px 5px;
+	margin: 10px 15px;
 }
-.news-header{
+
+.sale {
+	width:200px;
+	min-height:360px;
+	margin:5px 10px;
+	border:2px solid #33aaff;
+	border-radius:8px;
+	float:left;
+}
+.sale-products {
+	margin: 5px 10px;
+}
+
+.message-header{
 	color:white;
 	background-color:#33aaff;
 	width:100%;
 	min-height:25px;
 }
-.news-header h1{
+.message-header h1, h2, h3, h4, h5, h6 {
 	padding:0 5px 5px 5px;
 	margin:0;
 }
@@ -137,7 +150,6 @@ header{
 100% { left: -400%; }
 }
 
-body { margin: 0; } 
 div#slider { overflow: hidden; }
 div#slider figure img { width: 20%; float: left; }
 div#slider figure { 
