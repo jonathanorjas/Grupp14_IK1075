@@ -1,0 +1,334 @@
+li{
+	list-style-type: none;
+}
+ul{
+	padding: 0px;
+	margin:0;
+	min-height:20px;
+}
+body {
+	background-color:#ffffff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin:0;
+}
+.itemcounter {
+	background-color:#33aaff;
+	text-align:right;
+	color:#ffffff;
+	width:40px;
+	height:20px;
+	padding:0 5px;
+	margin-top:20px;
+	margin-right:10px;
+	border-radius:10px;
+	float:right;
+}
+.cart {
+	margin-top:10px;
+	margin-right:15px;
+	float:right;
+}
+/*Container för webbplats*/
+.container{
+	margin:0 auto;
+	width: 1200px;
+	min-height: 940px; 
+	overflow: auto;
+	background-color: #8FEBAD;
+}
+/*Header Start*/
+header{
+	width: 100%;
+	height: 120px;
+	background-color: #FF9090;
+	float: left;
+}
+/*Header Stopp*/
+/*Meny Start*/
+.menu{
+	width: 100%;
+	min-height: 40px;
+	background-color: #33aaff;
+	float: left;
+}
+/*Menylänkar Start*/
+.button a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+}
+.button{
+	background-color: #33aaff;
+	color:#ffffff;
+	text-align:center;
+	text-decoration:none;
+	padding:10px 0;
+	float: left;
+	height: 20px;
+	width: 12.5%;
+}
+.button:hover{
+	background-color: #66ccff;
+}
+/*Menylänkar Stopp*/
+/*Meny Stopp*/
+.search_bar{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.breadcrums{
+	height: 30px;
+	padding-top: 6px;
+	width: 100%;
+	background-color: #F7F7D0;
+	float: left;
+	font-size: 12pt;
+}
+.breadcrums ul{
+	margin-left: 20px;
+}
+.breadcrums ul li{
+	float: left;
+	margin-left: 5px;
+}
+.breadcrums a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+}
+/* Huvudmeny Hem */
+.news{
+	width:500px;
+	min-height:120px;
+	margin:10px auto;
+	margin-right:35%;
+	border:2px solid #33aaff;
+	border-radius:8px;
+}
+.news p {
+	margin: 5px 5px;
+}
+.news-header{
+	color:white;
+	background-color:#33aaff;
+	width:100%;
+	min-height:25px;
+}
+.news-header h1{
+	padding:0 5px 5px 5px;
+	margin:0;
+}
+
+.gallery {
+	width:660px;
+	height:330px;
+	margin:5px auto;
+	border:2px solid #33aaff;
+	border-radius:2px;
+}
+/* Bildspel */
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+
+/*Start nav sidebar*/
+.sidebar{
+	width: 16%;
+	height: auto;
+	background-color: #8FEBAD;
+	float: left;
+}
+.sidebar_kategori{
+	margin-left: 20px;
+}
+.sidebar_kategori li{
+	margin-top: 2px;
+	height: 30px;
+}
+.sidebar_header{
+
+}
+/*Stopp nav sidebar*/
+/*Main Start*/
+main{
+	width: 100%;
+	min-height: 600px;
+	background-color: #FFFFFF; 
+	float: left;
+	padding-bottom: 20px;
+
+}
+.mainkategori{
+	width: 84%;
+	height: auto;
+	background-color: #FFFFFF; 
+	float: left;
+	padding-bottom: 20px;
+}
+.kategori_produkter{
+	width: 30%;
+	height: 265px;
+	margin-top: 20px;
+	margin-left: 2.5%;
+	float: left;
+	border: 1px solid black;
+}
+.produkt_img_box{
+	float: left;
+	width: 100%;
+	height: 150px;
+	background-color: #000000;
+}
+.produkt_info{
+	float: left;
+	width: 95%;
+	padding-left: 5%;
+	height:	115px;
+}
+.short_info{
+
+}
+.produkt_name{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.price_small{
+	font-size: 18pt;
+}
+a .produkt_info, .short_info, .produkt_name, .price_small{
+	color: #000000;
+}
+
+/*Main Stopp*/
+/*Footer start*/
+footer{
+	width: 100%;
+	height: 144px;
+	float: left;
+	background-color: #B0B0B0;
+}
+.footer_logotypes{
+	float: left;
+	width: 30%;
+	height: 144px;
+}
+.footer_logotypes ul{
+	float: left;
+}
+.footer_logotypes ul li{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: -25px;
+}
+.footer_information{
+	float: left;
+}
+.logo_trygg_ehandel{
+	margin-left: 10px;
+	margin-top: 22px;
+	float: left;
+}
+/*Footer stopp*/
+
+/*AboutUs start*/
+.aboutus{
+	width:auto;
+	min-height:200px;
+	margin:10px 0px 10px 0px;
+	margin-right:0%;
+	border:2px solid #33aaff;
+	border-radius:8px;
+    background-color: #FAFAFA;
+    
+}
+.aboutus p {
+	margin: 15px 15px;
+    text-align: justify;
+}
+.aboutus-header{
+	color:white;
+	background-color:#33aaff;
+	width:100%;
+	min-height:25px;
+}
+.aboutus-header h1{
+	padding:0 5px 5px 5px;
+	margin:0;
+}
+/*AboutUs stop*/
+/*Contact start*/
+.contact {
+    width:325px;
+	min-height:570px;
+	margin:10px 0px 10px 0px;
+	margin-right:0%;
+	border:2px solid #33aaff;
+	border-radius:8px;
+    background-color: #FAFAFA;
+    
+    float: left;
+}
+.contact p {
+	margin: 10px 10px 10px 10px;
+}
+.contactInfo {
+    width:auto;
+	min-height:570px;
+	margin:10px 0px 10px 0px;
+	margin-right:10px;
+	border:2px solid #33aaff;
+	border-radius:8px;
+    background-color: #FAFAFA;
+    
+    float: left;
+}
+.contact-header{
+	color:white;
+	background-color:#33aaff;
+	width:100%;
+	min-height:25px;
+}
+.contact-header h1{
+	padding:0px 5px 5px 5px;
+	margin:0;
+    font-size: 25px;
+}
+.contact-Form {
+    margin:10px 0px 10px 10px;
+}
+
+.dataFields {
+    width: 300px;
+    margin: 0px 0px 10px 0px;
+}
+#mapDiv {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+
+}
+
+.mapInfo {
+    margin: 0px 0px 0px 10px;
+}
+/*Contact stop*/
