@@ -22,7 +22,9 @@ body {
 	padding:0 5px;
 	margin-top:20px;
 	margin-right:10px;
-	border-radius:10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	float:right;
 }
 .cart {
