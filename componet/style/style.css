@@ -405,6 +405,7 @@ footer{
 	margin-right: auto;
 	border:2px solid #33aaff;
 	border-radius:8px;
+	overflow: auto;
     background-color: #FAFAFA;
 }
 .produkt_area_header{
@@ -439,6 +440,13 @@ footer{
 	border: 1px solid black;
 	float: left;
 }
+.produkt_area_info ul{
+	margin-left: 20px;
+}
+.produkt_area_info ul li p{
+	text-align: justify;
+	width: 500px;
+}
 .produkt_area_info .add_to_basket{
 	float: left;
 }
@@ -462,5 +470,6 @@ footer{
 }
 .produkt_area_specifikation h2{
 	color: black;
+	margin-top: 5px;
 }
 
