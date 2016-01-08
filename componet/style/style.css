@@ -440,7 +440,7 @@ footer{
 	border-radius: 5px;
 	border: none;
 }
-.produkt_area_description{
+.produkt_area_specifikation{
 	margin-top: 20px;
 	float: left;
 	width: 1040px;
@@ -450,7 +450,7 @@ footer{
 	border-top: 2px solid #33aaff; 
 	overflow: auto;
 }
-.produkt_area_description h2{
+.produkt_area_specifikation h2{
 	color: black;
 }
 
