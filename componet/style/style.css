@@ -327,9 +327,14 @@ footer{
     margin:10px 0px 0px 0px;
 }
 
+.form-text {
+	
+	text-align:justify;
+	margin:10px 10px 10px 10px;
+}
+
 .dataFields {
     width: 300px;
-    margin: 0px 0px 0px 0px;
 }
 #mapDiv {
     width: 500px;
@@ -350,6 +355,11 @@ footer{
 	
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.newsform-text {
+	text-align:justify;
+	margin:10px 10px 10px 10px;
 }
 
 .news-text {
