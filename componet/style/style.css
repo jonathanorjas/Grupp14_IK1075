@@ -526,8 +526,12 @@ footer{
 	color: black;
 	margin-top: 5px;
 }
+.produkt_area_specifikation ul{
+	margin-left: 2px;
+}
 .produkt_area_specifikation ul li ul li{
-	list-style-type: decimal;
+	list-style-type: disc;
+	list-style-position: inside;
 }
 
 /* Shopping Cart Start */
