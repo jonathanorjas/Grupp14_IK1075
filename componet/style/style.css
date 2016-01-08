@@ -268,39 +268,43 @@ footer{
 
 /*AboutUs start*/
 .aboutus{
-	width:auto;
+	width:90%;
 	min-height:200px;
 	margin:10px 0px 10px 0px;
 	margin-right:0%;
 	border:2px solid #33aaff;
 	border-radius:8px;
     background-color: #FAFAFA;
+	
+	margin-left:auto;
+	margin-right:auto;
     
 }
 .aboutus p {
 	margin: 15px 15px;
     text-align: justify;
 }
-.aboutus-header{
-	color:white;
-	background-color:#33aaff;
-	width:100%;
-	min-height:25px;
-}
-.aboutus-header h1{
-	padding:0 5px 5px 5px;
-	margin:0;
-}
+
 /*AboutUs stop*/
 /*Contact start*/
-.contact {
+
+.contact-main {
+	width:845px;
+	min-height:600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.contact-form {
     width:325px;
 	min-height:570px;
-	margin:10px 0px 10px 0px;
+	margin:10px 0px 0px 0px;
 	margin-right:0%;
 	border:2px solid #33aaff;
 	border-radius:8px;
     background-color: #FAFAFA;
+	
     
     float: left;
 }
@@ -308,9 +312,9 @@ footer{
 	margin: 10px 10px 10px 10px;
 }
 .contactInfo {
-    width:auto;
+    width:500px;
 	min-height:570px;
-	margin:10px 0px 10px 0px;
+	margin:10px 0px 0px 0px;
 	margin-right:10px;
 	border:2px solid #33aaff;
 	border-radius:8px;
@@ -318,24 +322,14 @@ footer{
     
     float: left;
 }
-.contact-header{
-	color:white;
-	background-color:#33aaff;
-	width:100%;
-	min-height:25px;
-}
-.contact-header h1{
-	padding:0px 5px 5px 5px;
-	margin:0;
-    font-size: 25px;
-}
-.contact-Form {
-    margin:10px 0px 10px 10px;
+
+.form-contact {
+    margin:10px 0px 0px 0px;
 }
 
 .dataFields {
     width: 300px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
 }
 #mapDiv {
     width: 500px;
@@ -348,3 +342,45 @@ footer{
     margin: 0px 0px 0px 10px;
 }
 /*Contact stop*/
+/*News start*/
+
+.news-main {
+	width: 850px;
+	height: 100%;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.news-text {
+	width: 500px;
+	height: 100%;
+	float: left;
+}
+
+.news-text  p {
+	margin: 15px 15px;
+	
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+	border-bottom-color: gray;
+	
+    text-align: justify;
+	
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.news-form {
+	width:325px;
+
+	margin:10px 0px 10px 10px;
+	margin-right:0%;
+	border:2px solid #33aaff;
+	border-radius:8px;
+    background-color: #FAFAFA;
+
+	
+	float: left;
+}
+/*News stop */
