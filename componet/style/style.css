@@ -386,3 +386,71 @@ footer{
 	margin-right:auto;
 }
 /*News stop */
+/*Produktsida Start*/
+.produkt_area{
+	width: 90%;
+	min-height: 560px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid #33aaff;
+	border-radius:8px;
+    background-color: #FAFAFA;
+}
+.produkt_area_header{
+    background-color: #33aaff;
+    width:100%;
+	min-height:25px;
+	color: white;
+	float: left;
+	margin-bottom: 20px;
+}
+.produkt_area_header h1{
+	padding:0px 5px 5px 5px;
+	margin:0;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.produkt_area_img{
+	margin-left: 20px;
+	width: 400px;
+	height: 300px;
+	float: left;
+	border: 1px solid black;
+}
+.produkt_area_info{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 10px;
+	width: 606px;
+	min-height: 300px;
+	padding-bottom: 20px;
+	overflow: auto; 
+	border: 1px solid black;
+	float: left;
+}
+.produkt_area_info .add_to_basket{
+	float: left;
+}
+.produkt_area_info .add_produkt{
+	min-width: 100px;
+	height: 30px;
+	color: #ffffff;
+	background-color: #33aaff;
+	border-radius: 5px;
+	border: none;
+}
+.produkt_area_description{
+	margin-top: 20px;
+	float: left;
+	width: 1040px;
+	min-height: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-top: 2px solid #33aaff; 
+	overflow: auto;
+}
+.produkt_area_description h2{
+	color: black;
+}
+
