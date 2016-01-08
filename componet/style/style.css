@@ -349,3 +349,36 @@ footer{
     margin: 0px 0px 0px 10px;
 }
 /*Contact stop*/
+/*Produktsida Start*/
+.produkt_area{
+	width: 90%;
+	min-height: 560px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid #33aaff;
+	border-radius:8px;
+    background-color: #FAFAFA;
+}
+.produkt_area_header{
+    background-color: #33aaff;
+    width:100%;
+	min-height:25px;
+	color: white;
+	float: left;
+	margin-bottom: 20px;
+}
+.produkt_area_header h1{
+	padding:0px 5px 5px 5px;
+	margin:0;
+    font-size: 25px;
+}
+.produkt_area_img{
+	margin-left: 20px;
+	width: 300px;
+	height: 300px;
+	background-color: transparent;
+	float: left;
+	border: 1px solid black;
+}
+/*Produktsida Stopp*/
