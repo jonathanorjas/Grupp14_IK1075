@@ -259,7 +259,7 @@ main{
 }
 .kategori_produkter{
 	width: 300px;
-	height: 265px;
+	min-height: 265px;
 	margin-top: 20px;
 	margin-left: 2.5%;
 	float: left;
@@ -267,8 +267,13 @@ main{
 }
 .produkt_img_box{
 	float: left;
-	width: 100%;
-	height: 150px;
+	width: 300px;
+	height: 200px;
+}
+.produkt_img_box img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 .produkt_info{
 	float: left;
@@ -284,7 +289,10 @@ main{
 	margin-bottom: 2px;
 }
 .price_small{
+	float: right;
+	margin-right: 20px;
 	font-size: 18pt;
+	font-weight: bold;
 }
 a .produkt_info, .short_info, .produkt_name, .price_small{
 	color: #000000;
@@ -481,20 +489,25 @@ footer{
 .produkt_area_img{
 	margin-left: 20px;
 	width: 400px;
-	height: 300px;
+	height: 400px;
 	float: left;
-	border: 1px solid black;
+	background-color: white;
+}
+.produkt_area_img img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 .produkt_area_info{
 	margin-left: 20px;
 	margin-right: 20px;
 	padding-left: 10px;
 	width: 606px;
-	min-height: 300px;
+	min-height: 400px;
 	padding-bottom: 20px;
 	overflow: auto; 
-	border: 1px solid black;
 	float: left;
+	border-left: 2px solid #33aaff;
 }
 .produkt_area_info ul{
 	margin-left: 20px;
@@ -514,7 +527,7 @@ footer{
 	border-radius: 5px;
 	border: none;
 }
-.produkt_area_specifikation{
+.produkt_area_information{
 	margin-top: 20px;
 	float: left;
 	width: 1040px;
@@ -523,17 +536,24 @@ footer{
 	margin-right: 20px;
 	border-top: 2px solid #33aaff; 
 	overflow: auto;
+	padding-bottom: 20px;
 }
-.produkt_area_specifikation h2{
+.produkt_area_information h2{
 	color: black;
 	margin-top: 5px;
 }
-.produkt_area_specifikation ul{
+.produkt_area_information ul{
 	margin-left: 2px;
 }
-.produkt_area_specifikation ul li ul li{
-	list-style-type: disc;
-	list-style-position: inside;
+.produkt_area_information table{
+	width: 1040px;
+}
+.spec_header{
+	font-weight: bold;
+
+}
+.tabel_row_even{
+	background-color: white;
 }
 
 /* Shopping Cart Start */

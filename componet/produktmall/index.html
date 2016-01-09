@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Produktnamn - Componet</title>
-<link rel="stylesheet" type="text/css" href="../style/style.css">
+<link rel="stylesheet" type="text/css" href="../../../style/style.css">
 <meta name="robots" content="noindex, nofollow">
 <style type="text/css">
 .clearfix {
@@ -15,30 +15,34 @@ clear:both;
 <body>
 	<div class="container">
 		<header>
-			<a href="../">
-				<img src="../images/ComponetLogoX120.png" alt="componet">
+			<a href="../../../">
+				<img src="../../../images/ComponetLogoX120.png" alt="componet">
 			</a>
 			<form class="search_bar">
 				<input type="text" name="searchquery">
 				<input type="submit" value="Submit" name="Sök">
 			</form>
-			<img class="cart" src="../images/shoppingcart-icon.png" alt="cart">
+			<img class="cart" src="../../../images/shoppingcart-icon.png" alt="cart">
 			<div class="itemcounter"><span>0</span></div>
 		</header>
 		<nav class="menu">
 		<ul>
-			<li><a class="button" href="../">Hem</a></li>
-			<li><a class="button" href="../butik/">Butik</a></li>
-			<li><a class="button" href="../omoss/">Om Oss</a></li>
-			<li><a class="button" href="../kontakt/">Kontakt</a></li>
-			<li><a class="button" href="../nyhetsbrev/">Nyhetsbrev</a></li>
+			<li><a class="button" href="../../../">Hem</a></li>
+			<li><a class="button" href="../../../butik/">Butik</a></li>
+			<li><a class="button" href="../../../omoss/">Om Oss</a></li>
+			<li><a class="button" href="../../../kontakt/">Kontakt</a></li>
+			<li><a class="button" href="../../../nyhetsbrev/">Nyhetsbrev</a></li>
 		</ul>
 		</nav>
 		<nav class="breadcrums">
 			<ul>
-				<li><a href="../">Start</a></li>
+				<li><a href="../../../">Start</a></li>
 				<li>></li>
-				<li>Nyhetsbrev</li>
+				<li><a href="../../">Butik</a></li>
+				<li>></li>
+				<li><a href="../">Kategori</a></li>
+				<li>></li>
+				<li>Produktnamn</li>
 			</ul>			
 		</nav>
 		<main>
@@ -46,7 +50,7 @@ clear:both;
 				<div class="produkt_area_header">
 				</div>
 				<div class="produkt_area_img">
-
+					<img src="" alt="Produktnamn">
 				</div>
 				<div class="produkt_area_info">
 					<ul>
@@ -66,42 +70,54 @@ clear:both;
 						</li>
 					</ul>
 				</div>
-				<div class="produkt_area_specifikation">
-					<h2>Specifikation</h2>
-					<ul>
-						<li>a</li>
-						<li>
-							<ul>
-								<li>aa</li>
-								<li>ab</li>
-							</ul>
-						</li>
-						<li>b</li>
-						<li>
-							<ul>
-								<li>ba</li>
-								<li>bb</li>
-							</ul>
-						</li>
-						<li>c</li>
-					</ul>
+				<div class="produkt_area_information">
+					<h2>Teknisk Specifikation Exempel</h2>
+					<table>
+						<tr>
+							<td class="spec_header" colspan="2">Specifikationer</td>
+						</tr>
+						<tr>
+							<td>Anslutning</td><td>PCIe</td>
+						</tr>
+						<tr class="tabel_row_even">
+							<td>Minne</td><td>2 GB GDDR5</td>
+						</tr>	
+						<tr>
+							<td>GPU/Minne</td><td>Stöd för HDCP</td>
+						</tr>
+						<tr class="tabel_row_even">
+							<td>DirectX</td><td>11</td>
+						</tr>
+						<tr>
+							<td class="spec_header" colspan="2">Utgångar</td>
+						</tr>
+						<tr>
+							<td>DVI</td><td>Ja, 1 st</td>
+						</tr>
+						<tr class="tabel_row_even">
+							<td>HDMI</td><td>Ja, 1 st</td>
+						</tr>	
+						<tr>
+							<td>Displayport</td><td>Ja, 1 st</td>
+						</tr>
+					</table>
 				</div>
 			</article>			
 		</main>
 		<footer>
 			<div class="footer_logotypes">
-				<img src="../images/trygg_e-handel.png" alt="Trygg ehandel" class="logo_trygg_ehandel">
+				<img src="../../../images/trygg_e-handel.png" alt="Trygg ehandel" class="logo_trygg_ehandel">
 				<ul style="margin-left: 10px;">
-					<li><img src="../images/visa-icon.png" alt="Visa"></li>
-					<li><img src="../images/mastercard-icon.png" alt="Mastercard"></li>
+					<li><img src="../../../images/visa-icon.png" alt="Visa"></li>
+					<li><img src="../../../images/mastercard-icon.png" alt="Mastercard"></li>
 				</ul>
 				<ul>
-					<li><img src="../images/paypal-icon.png" alt="Paypal"></li>
-					<li style="margin-left: 6px; margin-top: 15px;"><img src="../images/klarna_logo.png" alt="Klarna"></li>
+					<li><img src="../../../images/paypal-icon.png" alt="Paypal"></li>
+					<li style="margin-left: 6px; margin-top: 15px;"><img src="../../../images/klarna_logo.png" alt="Klarna"></li>
 				</ul>
 				<ul>
-					<li style="margin-top:10px;"><img src="../images/dhl-shipping-box-icon.png" alt="DHL"></li>
-					<li style="margin-top:20px;"><img src="../images/posten_logo.png" alt="Posten"></li>
+					<li style="margin-top:10px;"><img src="../../../images/dhl-shipping-box-icon.png" alt="DHL"></li>
+					<li style="margin-top:20px;"><img src="../../../images/posten_logo.png" alt="Posten"></li>
 				</ul>
 				
 			</div>
