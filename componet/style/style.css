@@ -470,7 +470,7 @@ footer{
 	border:2px solid #33aaff;
 	border-radius:8px;
 	overflow: auto;
-    background-color: #FAFAFA;
+    background-color: white;
 }
 .produkt_area_header{
     background-color: #33aaff;
@@ -552,8 +552,11 @@ footer{
 	font-weight: bold;
 
 }
-.tabel_row_even{
+.table_row_odd{
 	background-color: white;
+}
+.table_row_even{
+	background-color: #FAFAFA;
 }
 
 /* Shopping Cart Start */
