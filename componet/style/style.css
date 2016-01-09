@@ -111,6 +111,7 @@ header{
 	height: 120px;
 	background-image:url('../images/background.jpg');
 	float: left;
+	background-color: black;
 }
 /*Header Stopp*/
 /*Meny Start*/
@@ -250,14 +251,14 @@ main{
 	padding-bottom: 20px;
 }
 .mainkategori{
-	width: 84%;
+	width: 1008px;
 	height: auto;
 	background-color: #FFFFFF; 
 	float: left;
 	padding-bottom: 20px;
 }
 .kategori_produkter{
-	width: 30%;
+	width: 300px;
 	height: 265px;
 	margin-top: 20px;
 	margin-left: 2.5%;
@@ -304,6 +305,7 @@ footer{
 }
 .footer_logotypes ul{
 	float: left;
+	margin-top: 20px;
 }
 .footer_logotypes ul li{
 	margin-top: 10px;
