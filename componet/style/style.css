@@ -87,8 +87,6 @@ body {
 	padding:0 5px;
 	margin-top:20px;
 	margin-right:10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
 	border-radius: 10px;
 	float:right;
 }
@@ -261,9 +259,13 @@ main{
 	width: 300px;
 	min-height: 265px;
 	margin-top: 20px;
-	margin-left: 2.5%;
+	margin-left: 20px;
 	float: left;
-	border: 1px solid black;
+	border:2px solid #33aaff;
+	border-radius: 2px;
+}
+.kategori_produkter:hover{
+	border-color: gray;
 }
 .produkt_img_box{
 	float: left;
@@ -277,9 +279,13 @@ main{
 }
 .produkt_info{
 	float: left;
-	width: 95%;
-	padding-left: 5%;
-	height:	115px;
+	width: 285px;
+	padding-left: 15px;
+	height:	60px;
+}
+.produkt_info ul li{
+	list-style-type: disc;
+	margin-left: 20px;
 }
 .short_info{
 	font-size: 12pt;
@@ -289,14 +295,19 @@ main{
 	margin-bottom: 2px;
 	font-size: 13pt;
 }
+.produkt_pris{
+	float: left;
+	height: 55px;
+	width: 300px;
+}
 .price_small{
 	float: right;
+	margin-top: 20px;
 	margin-right: 20px;
 	font-size: 18pt;
 	font-weight: bold;
-	vertical-align: bottom;
-	text-align: right;
 }
+
 a .produkt_info, .short_info, .produkt_name, .price_small{
 	color: #000000;
 }
@@ -546,6 +557,12 @@ footer{
 	margin-top: 5px;
 }
 .produkt_area_information ul{
+	margin-left: 2px;
+}
+.produkt_area_information ul li{
+	
+}
+.produkt_area_information ul:hover{
 	margin-left: 2px;
 }
 .produkt_area_information table{
