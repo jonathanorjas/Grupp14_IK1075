@@ -265,7 +265,7 @@ main{
 	border-radius: 2px;
 }
 .kategori_produkter:hover{
-	border-color: gray;
+	border-color: #66ccff;
 }
 .produkt_img_box{
 	float: left;
@@ -540,6 +540,9 @@ footer{
 	background-color: #33aaff;
 	border-radius: 5px;
 	border: none;
+}
+.add_produkt:hover{
+	background-color: #66ccff;
 }
 .produkt_area_information{
 	margin-top: 20px;
