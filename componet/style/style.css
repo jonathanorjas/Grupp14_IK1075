@@ -10,6 +10,7 @@ body {
 	background-image:url('../images/bakgrund.jpg');
 	background-repeat: no-repeat;
 	background-attachment:fixed;
+	background-position: top center;
 	background-color: #000000;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin:0;
@@ -335,7 +336,11 @@ footer{
 	margin-bottom: -25px;
 }
 .footer_information{
+	margin-top: 20px;
 	float: left;
+}
+.footer_information ul{
+	margin-left: 5px;
 }
 .logo_trygg_ehandel{
 	margin-left: 10px;
