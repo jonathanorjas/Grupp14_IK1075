@@ -193,6 +193,42 @@ header{
 .sale-products {
 	margin: 5px 10px;
 }
+.kampanj-produkter{
+	width: 170px;
+	height: 150px;
+	margin-bottom:4px;
+	float: left;
+	border:2px solid #33aaff;
+	border-radius: 2px;
+}
+.kampanj-image{
+	float: left;
+	width:100px;
+	height:80px;
+}
+.kampanj-image img{
+	margin-left: auto;
+	margin-right: auto;
+	width:75px;
+	height:auto;
+	display: block;
+}
+.kampanj-info{
+	float: left;
+	width: 100%;
+	height:auto;
+	color:#000;
+}
+.kampanj-text{
+	font-size: 13pt;
+}
+.kampanj-pris{
+	padding-top:10px;
+	float:right;
+	width:70px;
+	height:70px;
+	color:#000;
+}
 
 .mini-register {
 	width:200px;
@@ -240,7 +276,6 @@ div#slider figure {
   animation: 30s slidy infinite; 
 }
 
-/*Stopp nav sidebar*/
 /*Main Start*/
 main{
 	width: 100%;
