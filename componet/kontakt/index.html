@@ -10,19 +10,6 @@
 clear:both;
 }
 </style>
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-  function initialize() {
-    var mapCanvas = document.getElementById('mapDiv');
-    var mapOptions = {
-      center: new google.maps.LatLng(60.48720569999999, 15.410279299999956),
-      zoom: 16,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    }
-    var map = new google.maps.Map(mapCanvas, mapOptions)
-  }
-  google.maps.event.addDomListener(window, 'load', initialize);
-</script>
 </head>
 
 <body>
@@ -120,12 +107,12 @@ clear:both;
 				
 			</div>
 			<div class="footer_information">
-				<h3>Information</h3>
-				<ul>
-					<li><a href="">Webmaster</a></li>
+				<h3>Kundtjänst</h3>
+				<ul>					
 					<li><a href="">Kundservice</a></li>
 					<li><a href="">Support</a></li>
 					<li><a href="">Returer</a></li>
+					<li><a href="">Webmaster</a></li>
 				</ul>
 			</div>	
 		</footer>	
@@ -147,5 +134,18 @@ alt="Valid CSS!" />
 </a>
 </p>
 </div>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+  function initialize() {
+    var mapCanvas = document.getElementById('mapDiv');
+    var mapOptions = {
+      center: new google.maps.LatLng(60.48720569999999, 15.410279299999956),
+      zoom: 16,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(mapCanvas, mapOptions)
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </body>
 </html>

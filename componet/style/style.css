@@ -378,6 +378,14 @@ footer{
 .footer_information ul{
 	margin-left: 5px;
 }
+.footer_information ul li{
+	margin-left: 20px;
+	margin-top: 2px;
+	list-style-type: square;
+}
+.footer_information ul li a{
+	color: black;
+}
 .logo_trygg_ehandel{
 	margin-left: 10px;
 	margin-top: 22px;
