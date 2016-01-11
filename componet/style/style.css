@@ -297,6 +297,7 @@ main{
 	font-size: 13pt;
 }
 .produkt_pris{
+	margin-top: 20px;
 	float: left;
 	height: 55px;
 	width: 300px;
