@@ -195,11 +195,12 @@ header{
 }
 .kampanj-produkter{
 	width: 170px;
-	height: 150px;
+	min-height: 150px;
 	margin-bottom:4px;
 	float: left;
 	border:2px solid #33aaff;
 	border-radius: 2px;
+	overflow: auto;
 }
 .kampanj-image{
 	float: left;
